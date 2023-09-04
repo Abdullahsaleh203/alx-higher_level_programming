@@ -1,25 +1,26 @@
 #include "lists.h"
-#include <string.h>
+
 /**
- * check_cycle - Entry point
- * Desc: check_cycle function
- * @list: pointer to list_t
- * Return: Singly linkes list or cycle.
- **/
+ * check_cycle - function checks if a singly linked list has a cycle in it.
+ * @list: pointer to the beginning of the node
+ * Return: 0 if no cycle, 1 if there is a cycle
+ */
 int check_cycle(listint_t *list)
 {
-	listint_t *jar, *bar;
+	listint_t *current, *check;
 
-	jar = list;
-	bar = list;
+	if (list == NULL || list->next == NULL)
+		return (0);
+	current = list;
+	check = current->next;
 
-	while (jar && bar && bar->next)
+	while (current != NULL && check->next != NULL
+		&& check->next->next != NULL)
 	{
-		jar = jar->next;
-		bar = bar->next->next;
-		if (jar == bar)
+		if (current == check)
 			return (1);
+		current = current->next;
+		check = check->next->next;
 	}
 	return (0);
 }
-
