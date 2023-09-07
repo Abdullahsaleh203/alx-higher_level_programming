@@ -1,7 +1,7 @@
 0x01. Python - if/else, loops, functions
 ========================================
 
-
+## By: [Abdallah saleh](https://github.com/Abdullahsaleh203)
 Tasks
 -----
 
@@ -21,7 +21,7 @@ This program will assign a random signed number to the variable `number` each ti
 -if the number is less than 0: `is negative`
 -followed by a new line
 
-```
+```sh
 guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 -4 is negative
 guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
@@ -68,7 +68,7 @@ This program will assign a random signed number to the variable `number` each ti
         -   if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
     -   followed by a new line
 
-```
+```py
 guillaume@ubuntu:~/0x01$ ./1-last_digit.py
 Last digit of 4205 is 5 and is less than 6 and not 0
 guillaume@ubuntu:~/0x01$ ./1-last_digit.py
@@ -112,7 +112,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 -   You are not allowed to store characters in a variable
 -   You are not allowed to import any module
 
-```
+```py
 guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
 abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
 
@@ -136,7 +136,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 -   You are not allowed to store characters in a variable
 -   You are not allowed to import any module
 
-```
+```py
 guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
 abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
 
@@ -159,7 +159,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 -   You are not allowed to store numbers or strings in a variable
 -   You are not allowed to import any module
 
-```
+```py
 guillaume@ubuntu:~/0x01$ ./4-print_hexa.py
 0 = 0x0
 1 = 0x1
@@ -208,7 +208,7 @@ Write a program that prints numbers from `0` to `99`.
 -   You are not allowed to store numbers or strings in a variable
 -   You are not allowed to import any module
 
-```
+```py
 guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
 guillaume@ubuntu:~/0x01$
@@ -266,7 +266,7 @@ Write a function that checks for lowercase character.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 7-main.py
 #!/usr/bin/env python3
 islower = __import__('7-islower').islower
@@ -308,7 +308,7 @@ Write a function that prints a string in uppercase followed by a new line.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 8-main.py
 #!/usr/bin/env python3
 uppercase = __import__('8-uppercase').uppercase
@@ -341,7 +341,7 @@ Write a function that prints the last digit of a number.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 9-main.py
 #!/usr/bin/env python3
 print_last_digit = __import__('9-print_last_digit').print_last_digit
@@ -375,7 +375,7 @@ Write a function that adds two integers and returns the result.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 10-main.py
 #!/usr/bin/env python3
 add = __import__('10-add').add
@@ -410,7 +410,7 @@ Write a function that computes `a` to the power of `b` and return the value.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 11-main.py
 #!/usr/bin/env python3
 pow = __import__('11-pow').pow
@@ -451,7 +451,7 @@ Write a function that prints the numbers from 1 to 100 separated by a space.
 
 You don't need to understand `__import__`
 
-```
+```py
 guillaume@ubuntu:~/0x01$ cat 12-main.py
 #!/usr/bin/env python3
 fizzbuzz = __import__('12-fizzbuzz').fizzbuzz
@@ -485,7 +485,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
 -   Prototype: `listint_t *insert_node(listint_t **head, int number);`
 -   Return: the address of the new node, or `NULL` if it failed
 
-```
+```c
 carrie@ubuntu:0x01$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
@@ -514,7 +514,7 @@ listint_t *insert_node(listint_t **head, int number);
 
 ```
 
-```
+```c
 carrie@ubuntu:0x01$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -593,7 +593,7 @@ void free_listint(listint_t *head)
 
 ```
 
-```
+```c
 carrie@ubuntu:0x01$ cat 13-main.c
 #include <stdlib.h>
 #include <string.h>
