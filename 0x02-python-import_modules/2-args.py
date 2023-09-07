@@ -19,4 +19,3 @@ if __name__ == '__main__':
             print('{:d}: {}'.format(i, av[i]))
     elif l_av == 0:
         print(l_av, 'arguments.')
-
