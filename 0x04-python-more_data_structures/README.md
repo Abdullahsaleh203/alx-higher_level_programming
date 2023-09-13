@@ -1,6 +1,6 @@
 0x04. Python - More Data Structures: Set, Dictionary
 
-####By **Abdallah saleh**
+##By **Abdallah saleh**
 
 Tasks\
 0\. Squared simple\
@@ -781,4 +781,3 @@ julien@ubuntu:~/CPython$
 -   GitHub repository: `alx-higher_level_programming`
 -   Directory: `0x04-python-more_data_structures`
 -   File: `103-python.c`
-
