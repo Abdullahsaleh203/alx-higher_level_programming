@@ -39,8 +39,7 @@
 
 
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg)
-
+![](<https://www.slashroot.in/sites/default/files/styles/article_image_full_node/public/field/image/python%20classes%20and%20objects.png?itok=P_RaIVCi>)
 Tasks
 -----
 
@@ -659,5 +658,7 @@ Disassembly of circumference:
 ```
 
 * [Tip: Python bytecode](https://docs.python.org/3/library/dis.html)
-## Author :
+
+## Author
+
 #### [Abdallah Saleh](https://github.com/Abdullahsaleh203)
