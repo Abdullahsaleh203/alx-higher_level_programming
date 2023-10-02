@@ -52,7 +52,7 @@ Write an empty class `Square` that defines a square:
 
 -   You are not allowed to import any module
 
-```
+```py
 guillaume@ubuntu:~/0x06$ cat 0-main.py
 #!/usr/bin/python3
 Square = __import__('0-square').Square
