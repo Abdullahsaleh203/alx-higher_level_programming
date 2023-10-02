@@ -2,7 +2,7 @@
 
 ## Description
 This repository contains programs written for the high-level programming section .
-
+![##python ](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaThndXY5Nnhsb3Y0aTluNXc2M2V2ajNweWZvOXF3NTRnanE2amh2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coxQHKASG60HrHtvkt/giphy.gif)
 
 ## Structure
 
