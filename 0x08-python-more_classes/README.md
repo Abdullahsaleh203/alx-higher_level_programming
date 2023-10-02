@@ -50,7 +50,7 @@ Tasks
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write an empty class `Rectangle` that defines a rectangle:
 
@@ -86,7 +86,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `0-rectangle.py`)
 
@@ -138,7 +138,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `1-rectangle.py`)
 
@@ -196,7 +196,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `2-rectangle.py`)
 
@@ -270,7 +270,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `3-rectangle.py`)
 
@@ -373,7 +373,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `4-rectangle.py`)
 
@@ -436,7 +436,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `5-rectangle.py`)
 
@@ -503,7 +503,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `6-rectangle.py`)
 
@@ -610,7 +610,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `7-rectangle.py`)
 
@@ -693,7 +693,7 @@ guillaume@ubuntu:~/0x08$
 
 mandatory
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 Write a class `Rectangle` that defines a rectangle by: (based on `8-rectangle.py`)
 
@@ -769,7 +769,7 @@ guillaume@ubuntu:~/0x08$
 
 #advanced
 
-Score: 0.00% (Checks completed: 0.00%)
+ 
 
 ![](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)\
 Chess grandmaster [Judit Polgár](https://alx-intranet.hbtn.io/rltoken/bsRwbt64OvYjWaClriv0jg "Judit Polgár"), the strongest female chess player of all time
