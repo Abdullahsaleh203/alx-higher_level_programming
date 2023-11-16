@@ -1,8 +1,9 @@
---  a script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows.
-SELECT tv_shows.title, tv_genres.name
+--  a script that lists all Comedy shows in the database hbtn_0d_tvshows.
+SELECT tv_shows.title
   FROM tv_shows
-  LEFT JOIN tv_show_genres
+  INNER JOIN tv_show_genres
   ON tv_shows.id = tv_show_genres.show_id
-  LEFT JOIN tv_genres
+  INNER JOIN tv_genres
   ON tv_show_genres.genre_id = tv_genres.id
-  ORDER BY tv_shows.title, tv_genres.name;
+  WHERE tv_genres.name = "comedy"
+  ORDER BY tv_shows.title;
