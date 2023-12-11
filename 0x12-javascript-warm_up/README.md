@@ -222,7 +222,7 @@ Write a script that prints two arguments passed to it, in the following format: 
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./4-concat.js c cool
 c is cool
 guillaume@ubuntu:~/0x12$ ./4-concat.js c
@@ -251,7 +251,7 @@ Write a script that prints `My number: <first argument converted in integer>` 
 - You are not allowed to use `var`
 - You are not allowed to use `try/catch`
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js
 Not a number
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js 89
@@ -288,7 +288,7 @@ Write a script that prints 3 lines: (like `1-multi_languages.js`) but by using 
 - You can use only one `console.log`
 - You must use a loop (`while`, `for`, etc.)
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./6-multi_languages_loop.js
 C is fun
 Python is cool
@@ -393,7 +393,7 @@ Write a script that prints the addition of 2 integers
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./9-add.js
 NaN
 guillaume@ubuntu:~/0x12$ ./9-add.js 1
@@ -426,7 +426,7 @@ Write a script that computes and prints a factorial
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./10-factorial.js
 1
 guillaume@ubuntu:~/0x12$ ./10-factorial.js 3
@@ -458,7 +458,7 @@ Write a script that searches the second biggest integer in the list of arguments
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```js
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js
 0
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 1
