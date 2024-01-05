@@ -10,8 +10,7 @@ Resources
 - [HTTP (HyperText Transfer Protocol)](https://alx-intranet.hbtn.io/rltoken/rAon_EpQ6PGl8N0plySn4A "HTTP (HyperText Transfer Protocol)") (*except: "TRACE" Request Method, "CONNECT" Request Method, Language Negotiation and "Options MultiView" and Character Set Negotiation*)
 - [HTTP Cookies](https://alx-intranet.hbtn.io/rltoken/MhVCl_0oviQldWPn5oX-NQ "HTTP Cookies")
 
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Learning Objectives
 
 ### General
 - What a URL is
